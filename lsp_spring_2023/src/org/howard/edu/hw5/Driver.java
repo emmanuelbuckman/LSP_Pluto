@@ -1,4 +1,7 @@
-package org.howard.edu.lsp.hw4;
+package org.howard.edu.hw5;
+
+import org.howard.edu.hw5.IntegerSet;
+import org.howard.edu.hw5.IntegerSetException;
 
 public class Driver {
 
@@ -86,9 +89,7 @@ public class Driver {
 		set1.diff(set2);
 		
 		//Testing the toString() method
-		System.out.println("The string representation of set3 is " + set3.toString());
-		
-		IntegerSet testSet = new IntegerSet();
+		System.out.println("The string representation of set3 is " + set3.toString());	
 		
 	}
 
